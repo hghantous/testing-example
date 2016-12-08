@@ -1,0 +1,7 @@
+language: java
+os:
+- linux
+compiler:
+-javac  
+script:
+-make && make testscript

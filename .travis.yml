@@ -1,7 +1,10 @@
 language: java
+
 os:
 - linux
+
 compiler:
--javac  
+- javac  
+
 script:
--make && make testscript
+- make && make testscript

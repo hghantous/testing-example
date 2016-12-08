@@ -5,6 +5,3 @@ os:
 
 compiler:
 - javac  
-
-script:
-- make && make testscript
